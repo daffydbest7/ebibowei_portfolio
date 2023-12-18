@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-router-dom";
-import pupils from '../images/pupils.png';
-
+import developer from '../images/developer.jpg';
+import pupil from '../images/pupils.png';
 import diabetes from '../images/diabetes.png';
 
 
@@ -14,12 +14,16 @@ const Portfolio =() =>{
 
     const portfolios =[ 
         {                           
-            id:1, src: diabetes, desc: "Diabetes predictor using Power Bi",  
+            id:1, src: diabetes, desc: "Power Bi: Diabetes Predictor",  
             url: "#", target: "", style: 'shadow-blue-800 shadow-lg rounded-lg ',  
         },          
         {
-            id:2, src: pupils, desc: "Excel: Automated Pupil enrolment dashboard", 
+            id:2, src: developer, desc: "Excel: Automated Pupil Enrolment Dashboard", 
             url: "#", target: "", style: 'shadow-yellow-800 shadow-lg rounded-lg ',  
+        },
+        {
+            id:3, src: pupil, desc: "Power Bi: School End of Term Performance Dashboard", 
+            url: "#", target: "", style: 'shadow-blue-800 shadow-lg rounded-lg ',  
         },
        
         
