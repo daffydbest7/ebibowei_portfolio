@@ -18,7 +18,7 @@ const Portfolio =() =>{
             url: "#", target: "", style: 'shadow-blue-800 shadow-lg rounded-lg ',  
         },          
         {
-            id:2, src: developer, desc: "Data Analysis for School pupils performance", 
+            id:2, src: developer, desc: "Pupil enrolment dashboard", 
             url: "#", target: "", style: 'shadow-yellow-800 shadow-lg rounded-lg ',  
         },
        

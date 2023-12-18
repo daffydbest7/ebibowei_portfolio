@@ -16,7 +16,7 @@ const services =[{
 },
 
 {
-    name: 'Product/Program Management',
+    name: 'Program Management',
     description: `Ignite Success with Expert Program and Product Management Services: Elevate your projects with my seasoned expertise in orchestrating seamless programs and launching innovative products. As your dedicated Program/Product Manager, I bring a wealth of experience in navigating the intricate landscape of project lifecycles and product development. From inception to delivery, I ensure strategic alignment, resource optimization, and meticulous execution, turning your vision into reality. Let's embark on a collaborative journey, where your programs and products are not just managed but meticulously crafted for unparalleled success in today's dynamic market.`,
     link: 'Learn more',
 },
