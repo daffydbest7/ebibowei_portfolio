@@ -14,7 +14,7 @@ const Contact = () =>{
                 <motion.div variants={fadeIn('right', 0.4)} initial="hidden" whileInView={'show'} viewport={{once:false, amount:0.7}}
                 className="flex justify-center items-center">
                     <form action="https://getform.io/f/3edaa17c-e0e6-4cd4-806c-eb3700a415f7" method="POST" className="flex flex-col w-full md:w-1/2">
-                        <input type="text" name="name" placeholder="Ebibowei Nabeba ..." 
+                        <input type="text" name="name" placeholder="Ebibowei Nabena ..." 
                         className="p-2 bg-transparent border-2 rounded-md border-blue-400 text-white focus:outline-none" required/>
                         {/**hidden honeypot input to prevent spams */}
                         <input type="hidden" name="_gotcha" />

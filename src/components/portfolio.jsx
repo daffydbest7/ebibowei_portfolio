@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-router-dom";
-import developer from '../images/developer.jpg';
+import pupils from '../images/pupils.png';
 
 import diabetes from '../images/diabetes.png';
 
@@ -18,7 +18,7 @@ const Portfolio =() =>{
             url: "#", target: "", style: 'shadow-blue-800 shadow-lg rounded-lg ',  
         },          
         {
-            id:2, src: developer, desc: "Pupil enrolment dashboard", 
+            id:2, src: pupils, desc: "Excel: Automated Pupil enrolment dashboard", 
             url: "#", target: "", style: 'shadow-yellow-800 shadow-lg rounded-lg ',  
         },
        
