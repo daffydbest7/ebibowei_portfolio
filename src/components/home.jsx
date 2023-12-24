@@ -88,7 +88,7 @@ const Home =() => {
                 } initial="hidden"
                  whileInView={'show'} 
                  viewport={{once:false, amount:0.7}} 
-                 className=" mt-8">
+                 className=" mt-[100px] lg:mt-12">
                     <LinkRoll to="portfolio" smooth={true} spy={true} duration={2000}>
                     <button  className="group flex mx-auto p-1 lg:p-2 btn btn-sm lg:btn-lg rounded-xl text-white 
                     bg-blue-500 drop-shadow-lg lg:m-0 cursor-pointer items-center"><span>PORTOLIO</span> <span className="group-hover:rotate-90 duration-300"><MdOutlineKeyboardArrowRight className="text-2xl "/></span>  </button>
