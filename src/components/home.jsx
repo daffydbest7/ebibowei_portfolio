@@ -103,7 +103,7 @@ const Home =() => {
                  whileInView={'show'} 
                  viewport={{once:false, amount:0.7}} 
                   className="dark:hidden">
-                    <img src={day} className="max-w-[200px] max-h-[200px] lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300  " alt="pic"/>
+                    <img src={day} className="hidden lg:block lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300  " alt="pic"/>
                 </motion.div>
 
                 {/**night mode image */}
@@ -114,11 +114,11 @@ const Home =() => {
                  whileInView={'show'} 
                  viewport={{once:false, amount:0.7}} 
                   className="hidden dark:block">
-                    <img src={night} className="max-w-[200px] max-h-[200px] lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300 " alt="nightlifeimage"/>
+                    <img src={night} className="hidden lg:block  lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300 " alt="nightlifeimage"/>
                 </motion.div>
             </div>
         </div>
-    </div>
+         </div>
     </div>
     )
 };
