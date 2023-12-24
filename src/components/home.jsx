@@ -13,7 +13,9 @@ import {fadeIn} from '../variants';
 import {Link} from "react-router-dom";
 import { Link as LinkRoll } from 'react-scroll';
 //import image
-import ebibowei from "../images/ebibowei.jpg";
+import ebibowei from "../images/nabena12.jpg";
+import night from "../images/ebi1.jpg";
+import day from "../images/ebi2.jpg";
 
 
 
@@ -101,7 +103,7 @@ const Home =() => {
                  whileInView={'show'} 
                  viewport={{once:false, amount:0.7}} 
                   className="dark:hidden">
-                    <img src={ebibowei} className="max-w-[200px] max-h-[200px] lg:max-w-[350px] lg:max-h-[350px] rounded-full " alt="pic"/>
+                    <img src={day} className="max-w-[200px] max-h-[200px] lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300  " alt="pic"/>
                 </motion.div>
 
                 {/**night mode image */}
@@ -112,7 +114,7 @@ const Home =() => {
                  whileInView={'show'} 
                  viewport={{once:false, amount:0.7}} 
                   className="hidden dark:block">
-                    <img src={ebibowei} className="max-w-[150px] max-h-[150px] lg:max-w-[300px] lg:max-h-[300px] rounded-full hover:scale-105 duration-300 " alt="nightlifeimage"/>
+                    <img src={night} className="max-w-[200px] max-h-[200px] lg:max-w-[400px] lg:max-h-[300px] rounded-md hover:scale-105 duration-300 " alt="nightlifeimage"/>
                 </motion.div>
             </div>
         </div>

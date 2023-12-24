@@ -35,7 +35,7 @@ module.exports = {
         },
         backgroundImage:{
           about: "url('./images/about.jpg')",
-          about_new: "url('./images/ebibowei.jpg')",
+          about_new: "url('./images/nabena12.jpg')",
           service_img:"url('./images/analysis.jpg')",
           service_new: "url('./images/analysis.jpg')",
         }       

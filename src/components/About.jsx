@@ -4,7 +4,7 @@ import React from "react";
 import CountUp from 'react-countup'
 import { motion } from "framer-motion";
 import {fadeIn} from '../variants';
-import office_image from '../images/ebibowei.jpg';
+import office_image from '../images/nabena12.jpg';
 //intersection observer hook
 import { useInView } from "react-intersection-observer";
 
