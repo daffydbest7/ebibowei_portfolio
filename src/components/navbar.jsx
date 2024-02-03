@@ -4,10 +4,6 @@ import { BiUser, BiHome, BiSolidContact} from 'react-icons/bi';
 import {GiSkills} from 'react-icons/gi';
 import {FaServicestack, FaBriefcase} from 'react-icons/fa';
 
-
-
-
-
 // link
 import { Link } from "react-scroll";
 
