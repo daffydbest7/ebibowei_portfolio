@@ -14,8 +14,8 @@ import {Link} from "react-router-dom";
 import { Link as LinkRoll } from 'react-scroll';
 //import image
 import ebibowei from "../images/nabena12.jpg";
-import night from "../images/ebi1.jpg";
-import day from "../images/ebi2.jpg";
+import night from "../images/ebi_.jpg";
+import day from "../images/ebi_.jpg";
 
 
 
