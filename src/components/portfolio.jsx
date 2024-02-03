@@ -4,6 +4,8 @@ import { fadeIn } from "../variants";
 import { Link } from "react-router-dom";
 import developer from '../images/developer.jpg';
 import pupil from '../images/pupils.png';
+import currency from '../images/currencyConverter.png';
+import bmi from '../images/bmi.png';
 import diabetes from '../images/diabetes.png';
 
 
@@ -24,6 +26,14 @@ const Portfolio =() =>{
         {
             id:3, src: pupil, desc: "Power Bi: School End of Term Performance Dashboard", 
             url: "#", target: "", style: 'shadow-blue-800 shadow-lg rounded-lg ',  
+        },
+        {
+            id:4, src: currency, desc: "Excel: Dynamic Currency Converter", 
+            url: "#", target: "", style: 'shadow-red-800 shadow-lg rounded-lg ',  
+        },
+        {
+            id:5, src: bmi, desc: "Excel: Body Mass Index Calculator", 
+            url: "#", target: "", style: 'shadow-green-800 shadow-lg rounded-lg ',  
         },
        
         
