@@ -78,7 +78,7 @@ const Home =() => {
                  className="flex justify-center lg:justify-start  space-x-3 text-2xl text-black lg:text-4xl my-8 lg:hidden dark:text-white">                  
                   
                     <Link to="https://instagram.com/bibonabena"><FaInstagram className="hover:text-blue-500 hover:scale-105 duration-300"/></Link>
-                    <Link to="Ebibowei-Resume.pdf" target="_blank" download={true}> <TfiUser className="hover:text-blue-500 hover:scale-105 duration-300"/></Link>
+                    <Link to="Ebibowei_Nabena_Resume.pdf" target="_blank" download={true}> <TfiUser className="hover:text-blue-500 hover:scale-105 duration-300"/></Link>
                     <Link to="https://www.linkedin.com/in/ebibowei-nabena/"><FaLinkedinIn className="hover:text-blue-500 hover:scale-105 duration-300"/></Link>
                     <Link to="mailto:ebibowei.nabena@emandhaitchicthub.ng"><HiOutlineMail className="hover:text-blue-500 hover:scale-105 duration-300" /></Link>                            
                 </motion.div>

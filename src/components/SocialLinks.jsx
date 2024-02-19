@@ -17,7 +17,7 @@ const SocialLinks =() =>{
                 </>
             ),           
             style: 'rounded-tr-md bg-gradient-to-r from-teal-400 to-teal-700 flex justify-between items-center w-40 h-14 px-3  ml-[-90px] hover:ml-[-15px] hover:rounded-md duration-300 hover:scale-110 ',
-            href: 'Ebibowei-Resume.pdf',
+            href: 'Ebibowei_Nabena_Resume.pdf',
             download: true,
         },
        
